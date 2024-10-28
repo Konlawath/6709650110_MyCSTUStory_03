@@ -1,0 +1,203 @@
+@import url(https://fonts.googleapis.com/css2?family=Nerko+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+body{
+    background-color: rgb(43, 48, 54);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction:column;
+}
+
+header{
+    float: left;
+    width: 100%;
+    padding: 5px;
+    font-family: Nerko One;
+    color: rgb(226, 232, 239);
+    text-align: left;
+    background-color: rgb(64, 111, 147);
+    text-decoration:underline;
+}
+
+header h1{
+    font-family: Nerko One;
+    font-size: 30px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+nav{
+    float: left;
+    width: 15%;
+    height: 100vh;
+    padding: 15px;
+    text-align: left;
+    background-color: rgb(177, 200, 210);
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: block;
+    margin: 15px 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+nav ul li a {
+    font-family: Roboto;
+    text-decoration: none;
+    color: #131417;
+    font-size: 1.15em;
+    transition: color 0.3s ease;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    border-radius: 10%;
+    background-color: rgb(145, 164, 175); 
+    color: rgb(0, 0, 0);
+}
+
+main{
+    width: 75%;
+    padding: 15px;
+    float: right;
+}
+
+h2{
+    font-family: Nerko One;
+    font-size: 25px;
+    color: rgb(195, 132, 188);
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h3{
+    font-family: Handjet;
+    font-size: 40px;
+    color: rgb(118, 126, 240);
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+p{
+    font-family: Source Code Pro;
+    color: rgb(217, 223, 230);
+}
+
+.p1{
+    font-size: 20px;
+}
+
+table{
+    color: rgb(197, 234, 234);
+    font-family: Source Code Pro;
+    text-align: center;
+    font-size: 23px;
+}
+
+#mypic1{
+    border-radius: 100%;
+    width: 350px;
+    height: 340px;
+    padding: 15px;
+    display: block;
+    margin: 0 auto;
+}
+
+ul{
+    color: rgb(183, 213, 213);
+    font-family: Source Code Pro;
+    font-size: 20px;
+}
+
+video{
+    width: 1000px; 
+    height: 550px; 
+    display: block;
+    margin: 0 auto;
+}
+
+#football{
+    width: 480px;
+    height: 300px;
+    border: 5px double rgb(148, 136, 136);
+}
+
+#band{
+    width: 520px;
+    height: 300px;
+    border: 5px double rgb(148, 136, 136);
+}
+
+#mypic2{
+    width: 300px;
+    height: 430px;
+    border: 5px double rgb(148, 136, 136);
+}
+
+#mypic3{
+    width: 330px;
+    height: 430px;
+    border: 5px double rgb(148, 136, 136);
+}
+
+#mypic4{
+    width: 320px; 
+    height: 420px;
+    display: block;
+    margin: 0 auto;
+    border: 5px double rgb(148, 136, 136);
+}
+
+#instagram{
+    width: 18px; 
+    height: 15px;
+}
+
+#facebook{
+    width: 18px; 
+    height: 15px;
+}
+
+#email{
+    width: 18px; 
+    height: 15px;
+}
+
+#phone{
+    width: 18px; 
+    height: 15px;
+}
+
+.photo{
+    font-family: Source Code Pro;
+    font-size: 20px;
+    color: azure;
+    text-align: center;
+}
+
+footer{
+    font-family: Source Code Pro;
+    background-color: rgb(99, 144, 178);
+    padding: 10px;
+    text-align: center;
+    clear: both;
+    width: 100%;
+    color: white;
+}
+
+a{
+    font-family: Source Code Pro;
+    color: rgb(101, 218, 218);
+}
